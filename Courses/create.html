@@ -7,10 +7,12 @@
     <input id="numDays" placeholder="numDays" type="number" value="5"><br>
     <input id="dept" placeholder="dept" value="CompSci"><br>
     <button id="save"> SAVE </button>
+    <a href="index.html"> CANCEL </a>
 </body>
 <script>
 
     document.getElementById("save").addEventListener("click", e => {
+        
         let course = {
             courseNum: document.getElementById("courseNum").value,
             courseName: document.getElementById("courseName").value,
